@@ -1,0 +1,22 @@
+{
+  "name": "@nimasfl/ao-toolkit",
+  "version": "1.0.0",
+  "description": "An awesome custom global module for generating files from a template",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ao-toolkit": "bin/index.js"
+  },
+  "preferGlobal": true,
+  "author": "Nima Soufiloo",
+  "license": "MIT",
+  "dependencies": {
+    "custom-template-generator": "^0.1.2",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/yargs": "^16.0.0"
+  }
+}
