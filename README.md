@@ -11,12 +11,12 @@ This cli tool is developed to ease the develop workflow of various applications 
 ### Generate module
 use this command to generate nestjs module template 
 ```
-ao-toolkit generate module <ModuleName>
+$ ao-toolkit generate module <ModuleName>
 ```
 
 ##### Example
 ```
-ao-toolkit generate module app/BaseSample/Cat
+$ ao-toolkit generate module app/BaseSample/Cat
 ```
 Output files will be:
 ```
