@@ -1,6 +1,6 @@
 {
   "name": "@nimasfl/ao-toolkit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An awesome custom global module for generating files from a template",
   "main": "./index.js",
   "scripts": {
