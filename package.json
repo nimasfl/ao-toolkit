@@ -1,6 +1,6 @@
 {
   "name": "@nimasfl/ao-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An awesome custom global module for generating files from a template",
   "main": "./index.js",
   "scripts": {
@@ -9,6 +9,11 @@
   "bin": {
     "ao-toolkit": "bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimasfl/ao-toolkit.git"
+  },
+  "homepage": "https://github.com/nimasfl/",
   "preferGlobal": true,
   "author": "Nima Soufiloo",
   "license": "MIT",
