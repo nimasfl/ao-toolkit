@@ -3,5 +3,5 @@ import { {Name}Service } from '../services/{name}.service';
 
 @BusinessController('/{name}s', '{Name}')
 export class {Name}Controller {
-  constructor(private {name}Service: {Name}Service) {}
+  constructor(private service: {Name}Service) {}
 }

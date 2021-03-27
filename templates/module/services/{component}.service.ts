@@ -5,7 +5,7 @@ import { {Name}Repository } from '../repositories/{name}.repository';
 
 @Injectable()
 export class {Name}Service extends BusinessService<{Name}>{
-  constructor(private {name}Repository: {Name}Repository) {
-    super({name}Repository);
+  constructor(private repository: {Name}Repository) {
+    super(repository);
   }
 }
